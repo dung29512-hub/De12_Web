@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    color: #132a4a;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 150px;
+    background: #bcd5f4;
+    text-align: center;
+    padding-top: 38px;
+}
+
+.menu {
+    height: 35px;
+    background: #132a4a;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    line-height: 35px;
+    padding: 0 26px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.menu a.active {
+    text-decoration: underline;
+}
+
+.menu a:hover {
+    background: #f0660e;
+}
+
+.banner {
+    margin-top: 7px;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: 265px;
+}
+
+.search {
+    height: 59px;
+    margin-top: 9px;
+    background: #132a4a;
+    padding: 15px 40px 0 30px;
+}
+
+.search input[type="text"] {
+    width: 746px;
+    height: 30px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+.search input[type="submit"] {
+    float: right;
+    width: 118px;
+    height: 30px;
+    background: #f0660e;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.search input[type="submit"]:hover {
+    background: #ff8533;
+}
+
+#loi {
+    display: block;
+    color: #ff9999;
+    font-size: 11px;
+}
+
+.content {
+    margin-top: 17px;
+}
+
+.box {
+    border: 1px solid #f06510;
+    padding: 30px;
+}
+
+.box img {
+    display: block;
+    border: 1px solid transparent;
+}
+
+.box img:hover {
+    border: 1px solid #F00;
+}
+
+.box h3 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.box h3 a {
+    color: #132a4a;
+}
+
+.box h3 a:hover {
+    color: #f00;
+    text-decoration: underline;
+}
+
+.box-small {
+    float: left;
+    width: 482px;
+    height: 390px;
+}
+
+.box-small.right {
+    float: right;
+}
+
+.box-small img {
+    width: 420px;
+    height: 245px;
+    margin-bottom: 22px;
+}
+
+.box-big {
+    margin-top: 20px;
+    padding: 22px 30px;
+}
+
+.box-big img {
+    float: left;
+    width: 452px;
+    height: 275px;
+}
+
+.box-big .text {
+    float: right;
+    width: 440px;
+}
+
+.box-big p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+}
+
+.footer {
+    height: 113px;
+    line-height: 113px;
+    margin-top: 19px;
+    background: #bcd5f4;
+    text-align: center;
+    font-size: 12px;
+}
